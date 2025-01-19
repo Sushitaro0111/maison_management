@@ -1,0 +1,410 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+        <mxGraphModel dx="1871" dy="1198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="77e6c97f196da883-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ゴミ庫の解施錠フロー&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=30;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="10" width="1270" height="2350" as="geometry"/>
+                </mxCell>
+                <mxCell id="77e6c97f196da883-2" value="住人" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+                    <mxGeometry y="30" width="310" height="2320" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="扉を開けてゴミを入れ、扉を閉める" style="whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
+                    <mxGeometry x="110" y="1030" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-2" source="101" target="102">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="ゴミ庫まで向かう" style="whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
+                    <mxGeometry x="110" y="940" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-2" source="133" target="101">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="ゴミ捨て&lt;br&gt;start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
+                    <mxGeometry x="130" y="820" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="yHSWQD2_WqVUU6HUphyu-60" value="ゴ&lt;div&gt;ミ&lt;/div&gt;&lt;div&gt;庫&lt;/div&gt;&lt;div&gt;の&lt;/div&gt;&lt;div&gt;開&lt;/div&gt;&lt;div&gt;錠&lt;/div&gt;" style="swimlane;html=1;startSize=860;" parent="77e6c97f196da883-2" vertex="1">
+                    <mxGeometry width="30" height="860" as="geometry"/>
+                </mxCell>
+                <mxCell id="247" value="ゴ&lt;br&gt;ミ&lt;br&gt;捨&lt;br&gt;て" style="swimlane;html=1;startSize=860;" vertex="1" parent="77e6c97f196da883-2">
+                    <mxGeometry y="860" width="30" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="248" value="ゴ&lt;br&gt;ミ&lt;br&gt;収&lt;br&gt;集" style="swimlane;html=1;startSize=860;" vertex="1" parent="77e6c97f196da883-2">
+                    <mxGeometry y="1160" width="30" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="249" value="ゴ&lt;br&gt;ミ&lt;br&gt;庫&lt;br&gt;施&lt;br&gt;錠" style="swimlane;html=1;startSize=860;" vertex="1" parent="77e6c97f196da883-2">
+                    <mxGeometry y="1530" width="30" height="790" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="ゴミ捨て&lt;br&gt;end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
+                    <mxGeometry x="130" y="1120" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-2" source="102" target="135">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="77e6c97f196da883-3" value="管理人" style="swimlane;html=1;startSize=20;fontStyle=0" parent="77e6c97f196da883-1" vertex="1">
+                    <mxGeometry x="310" y="30" width="250" height="2320" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" source="77e6c97f196da883-11" target="83">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="170" y="218" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77e6c97f196da883-11" value="15:30までに管理人室に鍵を取りに行き、ゴミ庫へ行く" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;arcSize=22;" parent="77e6c97f196da883-3" vertex="1">
+                    <mxGeometry x="116.25" y="133" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" source="83" target="84">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="ゴミ庫の南京錠を外す" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;arcSize=22;" vertex="1" parent="77e6c97f196da883-3">
+                    <mxGeometry x="120" y="308" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-3" source="84" target="85">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="収集対象のゴミを知らせるボードを交換する" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=22;" vertex="1" parent="77e6c97f196da883-3">
+                    <mxGeometry x="110" y="398" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-3" source="85" target="172">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="170" y="578" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" value="管理人室に戻る" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=22;" vertex="1" parent="77e6c97f196da883-3">
+                    <mxGeometry x="110" y="488" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-3" source="86" target="108">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="170" y="860"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" value="引き続き鍵を自分で管理する" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=0;" vertex="1" parent="77e6c97f196da883-3">
+                    <mxGeometry x="130" y="698" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="ゴミ庫の開錠&lt;br&gt;end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
+                    <mxGeometry x="30" y="820" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="管理人" style="swimlane;html=1;startSize=20;fontStyle=0" vertex="1" parent="77e6c97f196da883-3">
+                    <mxGeometry width="250" height="2112" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="162" source="164" target="166">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="170" y="218" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="164" value="15:30までに管理人室に鍵を取りに行き、ゴミ庫へ行く" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;arcSize=22;" vertex="1" parent="162">
+                    <mxGeometry x="116.25" y="133" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="162" source="166" target="168">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" value="ゴミ庫の南京錠を外す" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;arcSize=22;" vertex="1" parent="162">
+                    <mxGeometry x="120" y="308" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" value="" style="edgeStyle=none;html=1;" edge="1" parent="162" source="168" target="170">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" value="収集対象のゴミを知らせるボードを交換する" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=22;" vertex="1" parent="162">
+                    <mxGeometry x="110" y="398" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" value="管理人室に戻る" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=22;" vertex="1" parent="162">
+                    <mxGeometry x="110" y="488" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" style="edgeStyle=none;html=1;" edge="1" parent="162" source="172" target="180">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="170" y="860"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="172" value="鍵を元の場所に戻す" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=0;" vertex="1" parent="162">
+                    <mxGeometry x="130" y="698" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" value="ゴミ庫の開錠&lt;br&gt;end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="162">
+                    <mxGeometry x="30" y="820" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="238" value="管理に荷室に戻る" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=0;" vertex="1" parent="162">
+                    <mxGeometry x="116.25" y="1990" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="228" value="鍵を元の場所に戻す" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=0;" vertex="1" parent="77e6c97f196da883-3">
+                    <mxGeometry x="136.25" y="2100" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-3" source="238" target="228">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" value="ゴミ庫施錠&lt;br&gt;end" style="ellipse;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=0;" vertex="1" parent="77e6c97f196da883-3">
+                    <mxGeometry x="136.25" y="2230" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="242" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-3" source="228" target="241">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="107ba76e4e335f99-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#000000;strokeWidth=1;fontFamily=Verdana;fontSize=8;fontColor=#000000;" parent="77e6c97f196da883-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="560" y="738" as="sourcePoint"/>
+                        <mxPoint x="610" y="708" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="" style="edgeStyle=none;html=1;fontSize=10;" parent="77e6c97f196da883-1" source="42" target="77e6c97f196da883-11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="77e6c97f196da883-4" value="鍵当番" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+                    <mxGeometry x="560" y="30" width="253.75" height="2320" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-4" source="77e6c97f196da883-12" target="49">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="77e6c97f196da883-12" value="事前に渡された鍵を持って15:30までにゴミ庫へ行く" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
+                    <mxGeometry x="97.5" y="228" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="祝日？" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=0;" parent="77e6c97f196da883-4" vertex="1">
+                    <mxGeometry x="95" y="128" width="105" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="edgeStyle=none;html=1;fontSize=16;" parent="77e6c97f196da883-4" source="42" target="77e6c97f196da883-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="77e6c97f196da883-4" vertex="1">
+                    <mxGeometry x="90" y="193" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-4" source="49">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="398" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="ゴミ庫の南京錠を外す" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;arcSize=22;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="100" y="308" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="458" as="sourcePoint"/>
+                        <mxPoint x="150" y="483" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="収集対象のゴミを知らせるボードを交換する" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=22;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="87.5" y="398" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="543" as="sourcePoint"/>
+                        <mxPoint x="150" y="578" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="玄関のゴミの施錠当番表を確認" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=22;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="87.5" y="483" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-4" target="61">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="658" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="次回も自分の当番？" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=0;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="93.75" y="578" width="112.5" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="引き続き鍵を自分で管理する" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=0;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="110" y="698" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="157.5" y="658" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="鍵を次の当番に渡しに行く" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=0;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="10" y="698" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-4" target="63">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="93.75" y="618" as="sourcePoint"/>
+                        <mxPoint x="-70" y="648" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="50" y="618"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="ゴミ庫の南京錠を外す" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;arcSize=22;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="100" y="308" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="40" y="658" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="-10" y="158" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-4" source="106" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="ゴミ庫の開錠&lt;br&gt;start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="107.5" y="30" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="116.88" y="3362" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-4" source="151" target="155">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="8:30に管理人室に鍵を取りに行き、ゴミ庫へ行く" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;arcSize=22;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="-126.25" y="1715" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-4" source="152" target="151">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-4" source="152" target="153">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="155" y="1800" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="152" value="祝日？" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=0;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="102.5" y="1710" width="105" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-4" source="153" target="154">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="事前に渡された鍵を持って8:30にゴミ庫へ行く" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="105" y="1810" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="237" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-4" source="154" target="231">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="ゴミ庫の扉に鎖を巻き&lt;br&gt;南京錠でロックする" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;arcSize=22;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="107.5" y="1890" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="ゴミ庫の扉に鎖を巻き&lt;br&gt;南京錠でロックする" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;arcSize=22;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="-122.5" y="1890" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" value="ゴミ庫施錠&lt;br&gt;start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="115" y="1590" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-4" source="146" target="152">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="1710" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="229" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#000000;strokeWidth=1;fontFamily=Verdana;fontSize=8;fontColor=#000000;" edge="1" parent="77e6c97f196da883-4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-23.12" y="2110" as="sourcePoint"/>
+                        <mxPoint x="26.88" y="2080" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="230" value="" style="edgeStyle=none;html=1;" edge="1" target="232" parent="77e6c97f196da883-4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="156.88" y="2060" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="231" value="次回も自分の当番？" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=0;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="100.63" y="1980" width="112.5" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="232" value="引き続き鍵を自分で管理する" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=0;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="116.88" y="2100" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="233" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="164.38" y="2060" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="234" value="鍵を次の当番に渡しに行く" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;arcSize=0;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="16.88" y="2100" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" target="234" parent="77e6c97f196da883-4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100.63" y="2020" as="sourcePoint"/>
+                        <mxPoint x="-663.12" y="2010" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="56.879999999999995" y="2020"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="236" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="77e6c97f196da883-4">
+                    <mxGeometry x="46.879999999999995" y="2060" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="ゴミ収集業者" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+                    <mxGeometry x="813.75" y="30" width="230" height="2320" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" parent="36" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="215" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="104" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="108" target="133">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="230" y="650" as="sourcePoint"/>
+                        <mxPoint x="330" y="650" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="280" y="890"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="112" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-1" source="63" target="108">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="610" y="890"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="113" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="61" target="108">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="710" y="890"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="239" value="" style="edgeStyle=none;html=1;" edge="1" parent="77e6c97f196da883-1" source="155" target="238">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="243" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="234" target="241">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="2300" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="620" y="2300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="244" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="232" target="241">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="2300" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="720" y="2300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="890" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="138" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="135" target="137">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="950" y="1200"/>
+                            <mxPoint x="950" y="1230"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="142" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="137" target="139">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="ゴミ収集&lt;br&gt;start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="1260" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="139" target="140">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="扉を開けてゴミをすべてゴミ収集車に入れる" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="1370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="140" target="141">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="扉を閉めて次の収集場へ向かう" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="1460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="141" target="146">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="725" y="1590"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="141" value="ゴミ捨て&lt;br&gt;end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="1550" width="80" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

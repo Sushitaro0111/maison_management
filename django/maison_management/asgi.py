@@ -1,5 +1,5 @@
 """
-ASGI config for operating_door_lock project.
+ASGI config for maison_management project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'operating_door_lock.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'maison_management.settings')
 
 application = get_asgi_application()
